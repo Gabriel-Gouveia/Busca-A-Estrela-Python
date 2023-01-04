@@ -3,7 +3,7 @@ from aestrela import AEstrela
 
 meuGrafo = Grafo()
 
-busca_gulosa = AEstrela(meuGrafo.bucharest)
-busca_gulosa.buscar(meuGrafo.arad)
+busca_aestrela = AEstrela(meuGrafo.bucharest)
+busca_aestrela.buscar(meuGrafo.arad)
 
-print(busca_gulosa.encontrado)
+print(busca_aestrela.encontrado)
